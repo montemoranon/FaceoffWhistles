@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="playCadence.js"></script>
+</head>
+
+<body>
+    <button id="playFaceoffButton">Play Cadence</button>
+    <button id="stop">Stop</button>
+    <br>
+    <label>Max time between down and set: </label>
+    <input type="range" min="500" max="4000" value="2000" class="slider" id="downSetSlider">
+    <label id="downSetTimeLabel"></label>
+    <br>
+    <label>Max time between set and whistle: </label>
+    <input type="range" min="500" max="4000" value="2000" class="slider" id="setWhistleSlider">
+    <label id="setWhistleTimeLabel"></label>
+    <br>
+    <label id="timeBetweenFaceoffs">Time Between Faceoffs</label>
+    <input type="range" min="3000" max="20000" value="10000" class="slider" id="timeBetweenFaceoffsSLider">
+    <label id="timeBetweenLabel"></label>
+    <br>
+    <img src="SteveRicci.png">
+</body>
+
+</html>
