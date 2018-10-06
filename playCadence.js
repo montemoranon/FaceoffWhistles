@@ -74,12 +74,10 @@ function setUp() {
     document.getElementById('stop').addEventListener('click', function() {
         continuePlaying = false;
         playButton.disabled = false;
-        playButton.style.color = 'black';
     })
 
     playButton.addEventListener('click', function() {
         playButton.disabled = true;
-        playButton.style.color = 'white';
         continuePlaying = true;
     })
     playButton.addEventListener('click', play);
